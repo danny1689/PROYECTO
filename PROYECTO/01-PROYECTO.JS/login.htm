@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iniciar_sesion</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="04-login.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <!-- Título del formulario -->
+        <h1>Iniciar Sesión</h1>
+        
+        <!-- Campo de entrada de usuario -->
+        <label for="usuario">Usuario</label>
+        <input type="text" placeholder="Escriba su usuario" id="usuario" />
+    
+        <!-- Campo de entrada de contraseña -->
+        <label for="contraseña">Contraseña</label>
+        <input type="password" placeholder="Escriba su contraseña" id="clave" />
+        
+        <!-- Enlace de "Olvidé contraseña" -->
+        <div class="recordar">¿Olvidé contraseña?</div>
+        
+        <!-- Botón de envío con evento onclick para activar la función de inicio de sesión -->
+        <input type="submit" value="Entrar" onclick="loguear()" />
+        
+        <!-- Enlace de registro -->
+        <div class="registrarse">
+            Hacer <a href="registro.html">registro</a>
+        </div>
+    </div>
+    
+      
+      
+    </div>
+    </form>
+  </body>
+</html>
